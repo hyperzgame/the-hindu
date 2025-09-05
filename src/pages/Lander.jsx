@@ -3,7 +3,7 @@ import PrivacyModal from '../components/PrivacyModal2'
 
 export default function Lander(){
   const [open, setOpen] = useState(true)
-  const goOut = () => { window.location.href = '/privacy' }
+  const goOut = () => { window.location.href = '/#/privacy' }
 
   useEffect(() => { setOpen(true) }, [])
 
