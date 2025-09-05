@@ -11,7 +11,7 @@ export default function Lander(){
     <div>
       <PrivacyModal open={open} onClose={goOut} onAccept={goOut} />
       <img
-        src={`https://picsum.photos/seed/lander-unique/1400/420`}
+        src={`https://raw.githubusercontent.com/worrier-tdo/myb/refs/heads/main/gameforge.png`}
         alt="Random online image"
         style={{width:'100%',height:'420px',objectFit:'cover',borderRadius:'16px',border:'1px solid var(--border)',margin:'16px 0'}}
       />
