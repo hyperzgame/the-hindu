@@ -12,7 +12,7 @@ export default function Home(){
   const more = data.slice(6,18)
   return (
     <div>
-      <PrivacyModal open={open} onClose={()=>{setOpen(false); navigate('/privacy')}} onAccept={()=>{setOpen(false); navigate('/privacy')}} />
+      <PrivacyModal open={open} onClose={()=>{setOpen(false);} onAccept={()=>{setOpen(false); navigate('/privacy')}} />
       <div className="hero">
         <div className="grid">
           {featured.slice(0,3).map(a => <Card key={a.id} article={a} />)}
