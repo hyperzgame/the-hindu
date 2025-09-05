@@ -1,0 +1,21 @@
+import { useEffect, useState } from 'react'
+import PrivacyModal from '../components/PrivacyModal'
+
+export default function Lander(){
+  const [open, setOpen] = useState(true)
+  const goOut = () => { window.location.href = 'https://www.google.com' }
+
+  useEffect(() => { setOpen(true) }, [])
+
+  return (
+    <div>
+      <PrivacyModal open={open} onClose={goOut} onAccept={goOut} />
+      <img
+        src={`https://picsum.photos/seed/lander-unique/1400/420`}
+        alt="Random online image"
+        style={{width:'100%',height:'420px',objectFit:'cover',borderRadius:'16px',border:'1px solid var(--border)',margin:'16px 0'}}
+      />
+      <p className="meta">This hidden lander appears only in the sitemap.</p>
+    </div>
+  )
+}

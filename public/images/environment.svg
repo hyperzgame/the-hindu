@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="rgba(255,255,255,0.2)">
+    <circle cx="150" cy="120" r="90"/><circle cx="380" cy="90" r="60"/><circle cx="620" cy="150" r="100"/>
+    <circle cx="880" cy="120" r="70"/><circle cx="1080" cy="200" r="90"/>
+    <circle cx="240" cy="490" r="110"/><circle cx="520" cy="520" r="80"/><circle cx="840" cy="480" r="120"/>
+  </g>
+  <text x="60" y="560" font-size="72" font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial" fill="#ffffff" font-weight="800">Environment</text>
+</svg>
