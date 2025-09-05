@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import PrivacyModal from '../components/PrivacyModal2'
+import PrivacyModal from '../components/PrivacyModal'
 
 export default function Lander(){
   const [open, setOpen] = useState(true)
