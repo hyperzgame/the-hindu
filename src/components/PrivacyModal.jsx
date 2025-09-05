@@ -7,11 +7,10 @@ export default function PrivacyModal({ open, onClose, onAccept }){
       <div className="modal">
         <header>
           <h3>Privacy Policy</h3>
-          <button className="btn secondary" onClick={onClose}>Close</button>
         </header>
         <div className="content">
           <p>
-            This website is a static, student-built project. It does not collect personal data,
+            This website is a static, It does not collect personal data,
             set tracking cookies, or run advertising. Links to external sites may have their own policies.
             Images may come from public placeholder sources (e.g., picsum.photos or royalty‑free providers).
           </p>
