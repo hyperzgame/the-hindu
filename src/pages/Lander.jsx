@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import PrivacyModal from '../components/PrivacyModal'
+import PrivacyModal from '../components/PrivacyModal2'
 
 export default function Lander(){
   const [open, setOpen] = useState(true)
-  const goOut = () => { window.location.href = 'https://www.google.com' }
+  const goOut = () => { window.location.href = '/privacy' }
 
   useEffect(() => { setOpen(true) }, [])
 
